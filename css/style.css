@@ -1,0 +1,111 @@
+:root{
+  --dark1: #131313;
+  --dark2: #424242;
+  --dark3: #727272;
+  --orgcolor: #FF900E;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
+/* share style */
+
+.display-flex{
+  display: flex;
+}
+
+.bg-color{
+  background-color: hsla(32, 100%, 53%, 0.1);
+}
+
+.btn-primary{
+  background: var(--orgcolor);
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25em;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+.btn-primary:hover{
+  background: white;
+  color: var(--orgcolor);
+  border: 2px solid var(--orgcolor);
+}
+
+
+/* header style */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* nav style */
+.main-nav,
+.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-nav{
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 6.5625em;
+}
+
+.main-nav h2{
+  font-size:  2.8em;
+  font-weight: 700;
+}
+.nav-item ul{
+  gap: 30px;
+}
+.nav-item li{
+  list-style: none;
+}
+.nav-item li a{
+  text-decoration: none;
+  font-size: 1.125em;
+  font-weight: 500;
+  color: var(--dark2);
+}
+.nav-item li a:hover{
+  color: var(--orgcolor);
+}
+/* banner style */
+
+.banner{
+  text-align: center;
+  margin-bottom: 5.3125em;
+}
+
+.banner-text{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3.125em;
+}
+.banner-text h1{
+  font-size: 4em;
+  font-weight: 700;
+  color: var(--dark1);
+  margin-bottom: 16px;
+}
+.banner-text p{
+  font-size: 1em;
+  color: var(--dark2);
+  margin-bottom: 16px;
+}
+.banner img{
+  width: 100%;
+  padding-bottom: 2.8em;
+  border-radius: 15px;
+}

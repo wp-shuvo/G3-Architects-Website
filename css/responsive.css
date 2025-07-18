@@ -1,0 +1,57 @@
+/* For mobile device responsive */
+@media screen and (max-width:576px) {
+  .main-nav {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 3.5625em;
+}
+.main-nav h2{
+  margin-bottom: 10px;
+}
+.banner-text h1{
+  font-size: 2.5em;
+}
+.banner img{
+  width: 96%;
+  margin: 0 auto;
+}
+}
+
+/* For tablet device responsive */
+
+@media screen and (min-width:576px) and (max-width:992px){
+  .main-nav {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 3.5625em;
+}
+.main-nav h2{
+  margin-bottom: 10px;
+}
+.banner-text h1{
+  font-size: 3.5em;
+}
+.banner img{
+  width: 96%;
+  margin: 0 auto;
+}
+}
+
+
+/* For larger then tablet device responsive */
+@media screen and (min-width:992px) and (max-width:1440px){
+  .main-nav {
+  width: 94%;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.banner img{
+  width: 96%;
+  margin: 0 auto;
+}
+}
+
