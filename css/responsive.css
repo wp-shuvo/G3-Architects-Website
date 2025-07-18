@@ -19,7 +19,8 @@
 }
 
 /* team Feature */
-.team-feature{
+.team-feature, 
+.Features{
   flex-direction: column;
 }
 .team-image{
@@ -54,6 +55,29 @@
 .Sponspor-icon img{
   margin-bottom: 24px;
 }
+/* Features Area*/
+.left-dection{
+ width: 96%;
+ margin: 0 auto;
+}
+.Features img{
+  width: 96%;
+  margin: 0 12px;
+}
+#exprinece-badge{
+  display: block;
+  margin: 0 auto;
+} 
+ #exprinece-badge .experience-text{
+  font-size: 1em;
+  font-weight: 600;
+}
+#exprience-year{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+
 /* footer area*/
 footer{
    padding:20px;
@@ -86,7 +110,8 @@ footer p{
 }
 
 /* team Feature */
-.team-feature{
+.team-feature,
+.Features{
   flex-direction: column;
 }
 .team-text,
@@ -126,6 +151,34 @@ footer p{
 footer{
    padding: 39px 20px;
 }
+/* Features Area*/
+.left-dection{
+ width: 96%;
+ margin: 0 auto;
+}
+.Features img{
+  width: 96%;
+  margin: 0 12px;
+  z-index: -1;
+  position: relative;
+}
+#exprinece-badge{
+  display: none;
+  z-index: 5;
+}
+#exprinece-badge{
+  display: block;
+  margin: 0 auto;
+  margin-top: -75px;
+} 
+ #exprinece-badge .experience-text{
+  font-size: 1em;
+  font-weight: 600;
+}
+#exprience-year{
+  font-size: 2.5em;
+  font-weight: 700;
+}
 }
 
 
@@ -144,7 +197,8 @@ footer{
 }
 
 /* team Feature */
-.team-feature{
+.team-feature,
+.Features{
   flex-direction: column;
 }
 .team-text{
@@ -168,5 +222,11 @@ footer{
 .Sponspor-icon img{
   margin-bottom: 24px;
 }
+/* Features Area*/
+.left-dection{
+ margin: 0 auto;
 }
-
+.Features img{
+  width: 96%;
+}
+}
