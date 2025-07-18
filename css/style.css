@@ -145,3 +145,89 @@ main{
   color: var(--dark3);
   margin-bottom: 24px;
 }
+
+/* Some Facts style */
+.some-facts{
+  margin-bottom: 180px;
+}
+
+.facts-title{
+  margin-bottom: 100px;
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.facts-title h3{
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--dark1);
+}
+.facts-title p{
+  font-size: 1em;
+  color: var(--dark3);
+  margin-bottom: 24px;
+}
+.facts{
+  justify-content: space-evenly;
+}
+.fact-container{
+  text-align: center;
+  padding: 36px 50px;
+  border: 2px solid var(--orgcolor);
+  border-radius: 10px;
+}
+.fact-container h3{
+  font-size: 2.8em;
+  font-weight: 700;
+  margin: 10px 0 5px;
+  color: var(--dark2);
+}
+.fact-container p{
+  font-size: 1.125em;
+  color: var(--dark3);
+  font-weight: 600;
+}
+
+
+/* Our Sponspors */
+.Sponspors{
+  margin-bottom: 130px;
+}
+.Sponspor-text{
+  margin: 0 auto;
+  text-align: center;
+}
+.Sponspor-text h3{
+  font-size: 2.8em;
+  font-weight: 700;
+  color: var(--dark1);
+  margin-bottom: 24px;
+}
+.Sponspor-text p{
+  font-size: 1em;
+  color: var(--dark3);
+  margin-bottom: 40px;
+}
+
+.Sponspor-icon{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+.Sponspor-icon img{
+  filter: grayscale(100%);
+}
+
+
+
+/* footer area style */
+footer{
+  background-color: #FFF4E7;
+  padding: 39px 410px;
+}
+footer p{
+  text-align: center;
+  color: var(--dark2);
+}
