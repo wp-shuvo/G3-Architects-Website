@@ -109,3 +109,39 @@ main{
   padding-bottom: 2.8em;
   border-radius: 15px;
 }
+
+/* main area style */
+
+/* our team Feature style */
+
+.team-feature{
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.team-image{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.team-text{
+  margin-left: 73px;
+  max-width: 540px;
+}
+.team-text h2{
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.team-text .gray-text{
+  color: var(--dark3);
+  font-weight: 500;
+}
+.team-text .org-text{
+  color: var(--orgcolor);
+}
+.team-text p{
+  font-size: 1em;
+  color: var(--dark3);
+  margin-bottom: 24px;
+}
